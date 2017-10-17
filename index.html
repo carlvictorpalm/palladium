@@ -1,46 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="img/P.jpg">
-
     <title>Palladium</title>
-
-
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
-
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Kaushan+Script|Droid+Serif:400,700,400italic,700italic|Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
     <!-- Theme CSS -->
     <link href="css/agency.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
-
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-   
 </head>
-
 <body id="page-top" class="index">
-
-
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container">
@@ -51,7 +35,6 @@
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">Palladium</a>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -73,72 +56,57 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-
     <!-- Header -->
     <header>
-        <img src="img/party.jpg" alt="" id="background">
-
+        <img src="img/party.jpg" alt="" class="background">
     </header>
-
-
     <!-- event Grid Section -->
-    <section id="event" class="bg-light-gray">
+   <div class="row">
+     <section id="event" class="bg-light-gray">
         <div class="container" id="text-container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Event</h2>
                     <h3 class="section-subheading text-muted">Event för kommande veckor</h3>
-
-
                     <div class="container">
-
-                        <table id="table" class="table-striped table-bordered table-condensed">
-                            <thead>
-                                <tr>
-                                    <th>Datum</th>
-                                    <th>Tid</th>
-                                    <th>Event</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <!--
-
-                                            FÖRSTA KOLLUMNEN FÖR EVENTEN
-                                            
-                                            -->
-                                        <div class="datenum">
-                                            <p>31</p>
-                                        </div>
-                                        <div class="day">
-                                            <p>Lördag</p>
-                                        </div>
-                                        <div class="month">
-                                            <p>December, 2016</p>
-                                        </div>
-                                    </td>
-                                    <td id="time">
-                                        <p> 16:00 - 03:00</p>
-                                    </td>
-                                    <td id="eventtext">
-
-                                        <p>Här skriver vi lite information om eventet/artisten</p>
-
-                                        <div id="music">
-                                            <iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A0SSq1YWOYKNrAAbyhOH3Qv" frameborder="0" allowtransparency="true"></iframe>
-                                        </div>
-                                        <a href="#">Förköpsbiljetter</a>
-                    </div>
-                    </td>
+                    <table id="table" class="table-striped table-bordered table-condensed">
+                    <thead>
+                        <tr>
+                            <th>Datum</th>
+                            <th>Tid</th>
+                            <th>Event</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <!--FÖRSTA KOLLUMNEN FÖR EVENTEN-->
+                                <div class="datenum">
+                                    <p>31</p>
+                                </div>
+                                <div class="day">
+                                    <p>Lördag</p>
+                                </div>
+                                <div class="month">
+                                    <p>December, 2016</p>
+                                </div>
+                            </td>
+                            <td id="time">
+                                <p> 16:00 - 03:00</p>
+                            </td>
+                            <td id="eventtext">
+                            <p>Här skriver vi lite information om eventet/artisten</p>
+                            <div id="music">
+                                <iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A0SSq1YWOYKNrAAbyhOH3Qv" frameborder="0" allowtransparency="true"></iframe>
+                            </div>
+                            <a href="#">Förköpsbiljetter</a>
+                        </td>
+                            
+                            
                     </tr>
                     <tr>
                         <td>
-                            <!--
-                                            
-                                            ANDRA KOLLUMNEN FÖR EVENTEN
-                                            
-                                            -->
+                            <!--ANDRA KOLLUMNEN FÖR EVENTEN-->
                             <div class="datenum">
                                 <p>31</p>
                             </div>
@@ -154,7 +122,6 @@
                         </td>
                         <td id="eventtext">
                             <p>Här skriver vi lite information om eventet/artisten</p>
-
                             <div id="music">
                                 <iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A5jKYiqIvEqofDxjRVSiYkD" frameborder="0" allowtransparency="true"></iframe>
                             </div>
@@ -164,9 +131,7 @@
                     <tr id="hidethis">
                         <td>
                             <!--
-                                            
                                             ANDRA KOLLUMNEN FÖR EVENTEN
-                                        
                                         -->
                             <div class="datenum">
                                 <p>31</p>
@@ -183,7 +148,6 @@
                         </td>
                         <td id="eventtext">
                             <p>Här skriver vi lite information om eventet/artisten </p>
-
                             <div id="music">
                                 <iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A1eyzqe2QqGZUmfcPZtrIyt" frameborder="0" allowtransparency="true"></iframe>
                             </div>
@@ -197,28 +161,23 @@
             </div>
         </div>
         </div>
-
     </section>
-
+       
+   </div>
     <!-- gallery Section -->
     <section id="gallery">
         <div class="container">
             <div class="row">
-                <div class="text-center">
+                <div class="galley-headings">
                     <h2 class="section-heading">Galleri</h2>
-                    <h3 class="section-subheading text-muted"> </h3>
-
+                    <!-- <h3 class="section-subheading text-muted"> </h3 -->
                 </div>
-      
                <div id="instagram"></div>
                 <!--/Slider-->
             </div>
-
         </div>
         </div>
     </section>
-
-
         <!-- Contact Section -->
         <section id="contact">
             <div class="container">
@@ -257,14 +216,12 @@
                                     <div id="success"></div>
                                     <button type="submit" class="btn btn-xl">Skicka</button>
                                 </div>
-
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
         </section>
-
         <footer>
             <div class="container">
                 <div class="row">
@@ -272,8 +229,6 @@
                         <p><b>Öppetider</b><br> Fredag: 23.00 - 03.00 <br> Lördag: 23.00 - 03.00 <br>
                         </p>
                         <p>&copy; Victor Palm</p>
-
-
                     </div>
                     <div class="col-md-4">
                         <ul class="list-inline social-buttons">
@@ -281,60 +236,33 @@
                             <li><a href="https://www.facebook.com/Palladiumnattklubb/" target="blank"><i class="fa fa-facebook"></i></a>
                             </li>
                             <li><a href="#" target="blank"><i class="fa fa-instagram"></i></a>
-
                         </ul>
                     </div>
                     <div class="col-md-4">
                         <p>
                             <b>Adress</b><br> Brunnsgatan 4 <br> 59330 Västervik</p>
                         <p>&copy; Victor Palm</p>
-
-
                     </div>
-
                 </div>
             </div>
-            
         </footer>
-
-
-            
-
-
-        
-
         <!-- jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
         <script src="vendor/jquery/jquery.min.js"></script>
         <!-- Bootstrap CDN-->
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <!-- Bootstrap Core JavaScript -->
         <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-
         <!-- Plugin JavaScript -->
-
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
         <!-- Contact Form JavaScript -->
         <script src="js/jqBootstrapValidation.js"></script>
         <script src="js/contact_me.js"></script>
-
         <!-- Theme JavaScript -->
         <script src="js/agency.min.js"></script>
-
-
         <!-- Instagramscript -->
         <script src="js/instafeed.min.js"></script>
-   
-
         <!--<script src="js/javascript.js"></script>-->
         <script type="text/javascript" src="js/custom.js"></script>
-
-
-
 </body>
-
 </html>

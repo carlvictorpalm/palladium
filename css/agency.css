@@ -13,9 +13,7 @@ body {
 .text-primary {
   color: #f79e05;
 }
-
 p {
- 
   margin: 0px;
 }
 a,
@@ -34,12 +32,7 @@ a:active,
 a.active {
   color: #f79e05;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -232,14 +225,11 @@ header {
   text-align: center;
   color: white;
 }
-
 #background{
   max-height: 100%;
   max-width: 100%;
 }
-
 //*FÖR ATT BILDEN *//
-
 //*header .intro-text {
   padding-top: 200px;
   padding-bottom: 150px;
@@ -271,7 +261,6 @@ header .intro-text .intro-heading {
     line-height: 40px;
     margin-bottom: 25px;
   }
-
 }
 section {
   padding: 100px 0;
@@ -358,8 +347,6 @@ section h3.section-subheading {
 #event * {
   z-index: 2;
 }
-
-
 /* Dates */
 .agenda .agenda-date { width: 170px; }
 .agenda .agenda-date .dayofmonth {
@@ -373,17 +360,11 @@ section h3.section-subheading {
 .agenda .agenda-date .shortdate {
   font-size: 0.75em; 
 }
-
-
 /* Times */
 .agenda .agenda-time { width: 140px; } 
-
-
 /* Events */
 .agenda .agenda-events {  } 
 .agenda .agenda-events .agenda-event {  } 
-
-
 @media (min-width: 767px) {
   #event .event-item {
     margin: 0 0 30px;
